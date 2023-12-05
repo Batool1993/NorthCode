@@ -1,0 +1,60 @@
+{
+  "identityPoolName": "connectui26b4e421_identitypool_26b4e421",
+  "allowUnauthenticatedIdentities": true,
+  "resourceNameTruncated": "connec26b4e421",
+  "userPoolName": "connectui26b4e421_userpool_26b4e421",
+  "autoVerifiedAttributes": [
+    "email"
+  ],
+  "mfaConfiguration": "OFF",
+  "mfaTypes": [
+    "SMS Text Message"
+  ],
+  "smsAuthenticationMessage": "Your authentication code is {####}",
+  "smsVerificationMessage": "Your verification code is {####}",
+  "emailVerificationSubject": "Your verification code",
+  "emailVerificationMessage": "Your verification code is {####}",
+  "defaultPasswordPolicy": false,
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [],
+  "requiredAttributes": [
+    "email"
+  ],
+  "aliasAttributes": [],
+  "userpoolClientGenerateSecret": false,
+  "userpoolClientRefreshTokenValidity": 30,
+  "userpoolClientWriteAttributes": [
+    "email"
+  ],
+  "userpoolClientReadAttributes": [
+    "email"
+  ],
+  "userpoolClientLambdaRole": "connec26b4e421_userpoolclient_lambda_role",
+  "userpoolClientSetAttributes": false,
+  "sharedId": "26b4e421",
+  "resourceName": "connectui26b4e421",
+  "authSelections": "identityPoolAndUserPool",
+  "useDefault": "default",
+  "usernameAttributes": [
+    "email"
+  ],
+  "userPoolGroupList": [],
+  "serviceName": "Cognito",
+  "usernameCaseSensitive": false,
+  "useEnabledMfas": false,
+  "authRoleArn": {
+    "Fn::GetAtt": [
+      "AuthRole",
+      "Arn"
+    ]
+  },
+  "unauthRoleArn": {
+    "Fn::GetAtt": [
+      "UnauthRole",
+      "Arn"
+    ]
+  },
+  "breakCircularDependency": true,
+  "dependsOn": [],
+  "adminQueryGroup": "Admins"
+}

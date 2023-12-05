@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "prod"
+  },
+  "devconnect": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "devconnect"
+  },
+  "connectdev": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "connectdev"
+  },
+  "prod": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "prod"
+  },
+  "prodd": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "prod"
+  }
+}

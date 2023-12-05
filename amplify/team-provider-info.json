@@ -1,0 +1,155 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-connectui-dev-181148-authRole",
+      "UnauthRoleArn": "arn:aws:iam::690581034546:role/amplify-connectui-dev-181148-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::690581034546:role/amplify-connectui-dev-181148-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-connectui-dev-181148-deployment",
+      "UnauthRoleName": "amplify-connectui-dev-181148-unauthRole",
+      "StackName": "amplify-connectui-dev-181148",
+      "StackId": "arn:aws:cloudformation:us-east-1:690581034546:stack/amplify-connectui-dev-181148/f00e8db0-9003-11ec-b4e2-0aa75dfb331b",
+      "AmplifyAppId": "d10aqeu8w0qyz7"
+    },
+    "categories": {
+      "function": {
+        "AdminQueries18089b5e": {
+          "deploymentBucketName": "amplify-connectui-dev-181148-deployment",
+          "s3Key": "amplify-builds/AdminQueries18089b5e-6d69596c624c62727838-build.zip"
+        }
+      },
+      "auth": {
+        "connectdevde31f482": {}
+      }
+    }
+  },
+  "devconnect": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-connectui-devconnect-105008-authRole",
+      "UnauthRoleArn": "arn:aws:iam::480876436154:role/amplify-connectui-devconnect-105008-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::480876436154:role/amplify-connectui-devconnect-105008-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-connectui-devconnect-105008-deployment",
+      "UnauthRoleName": "amplify-connectui-devconnect-105008-unauthRole",
+      "StackName": "amplify-connectui-devconnect-105008",
+      "StackId": "arn:aws:cloudformation:us-east-1:480876436154:stack/amplify-connectui-devconnect-105008/677c86a0-908f-11ec-aad5-0aa0a9eb21ff",
+      "AmplifyAppId": "dmuwpm2t7uf0w"
+    },
+    "categories": {
+      "function": {
+        "AdminQueries18089b5e": {
+          "deploymentBucketName": "amplify-connectui-devconnect-105008-deployment",
+          "s3Key": "amplify-builds/AdminQueries18089b5e-6d69596c624c62727838-build.zip"
+        }
+      },
+      "auth": {
+        "connectdevde31f482": {}
+      }
+    }
+  },
+  "connectdev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-connectui-connectdev-125735-authRole",
+      "UnauthRoleArn": "arn:aws:iam::480876436154:role/amplify-connectui-connectdev-125735-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::480876436154:role/amplify-connectui-connectdev-125735-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-connectui-connectdev-125735-deployment",
+      "UnauthRoleName": "amplify-connectui-connectdev-125735-unauthRole",
+      "StackName": "amplify-connectui-connectdev-125735",
+      "StackId": "arn:aws:cloudformation:us-west-1:480876436154:stack/amplify-connectui-connectdev-125735/3657c960-90a1-11ec-abe9-025e0afe5669",
+      "AmplifyAppId": "d3i62dsaiqkh4e"
+    },
+    "categories": {
+      "function": {
+        "AdminQueries18089b5e": {}
+      },
+      "auth": {
+        "connectdevde31f482": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-connectui-prod-224416-authRole",
+      "UnauthRoleArn": "arn:aws:iam::480876436154:role/amplify-connectui-prod-224416-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::480876436154:role/amplify-connectui-prod-224416-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-connectui-prod-224416-deployment",
+      "UnauthRoleName": "amplify-connectui-prod-224416-unauthRole",
+      "StackName": "amplify-connectui-prod-224416",
+      "StackId": "arn:aws:cloudformation:us-east-1:480876436154:stack/amplify-connectui-prod-224416/a94730f0-934e-11ec-8a5c-0ea63f948251",
+      "AmplifyAppId": "dmuwpm2t7uf0w"
+    },
+    "categories": {
+      "function": {
+        "AdminQueries18089b5e": {
+          "deploymentBucketName": "amplify-connectui-prod-224416-deployment",
+          "s3Key": "amplify-builds/AdminQueries18089b5e-6d69596c624c62727838-build.zip"
+        },
+        "users": {
+          "deploymentBucketName": "amplify-connectui-prod-224416-deployment",
+          "s3Key": "amplify-builds/users-63646c4e6d626d324930-build.zip"
+        },
+        "Users": {
+          "deploymentBucketName": "amplify-connectui-prod-224416-deployment",
+          "s3Key": "amplify-builds/Users-63646c4e6d626d324930-build.zip"
+        },
+        "connectProdCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-connectui-prod-224416-deployment",
+          "s3Key": "amplify-builds/connectProdCreateAuthChallenge-6b44636a454a59494935-build.zip"
+        },
+        "connectProdPostConfirmation": {
+          "GROUP": "Admins",
+          "deploymentBucketName": "amplify-connectui-prod-224416-deployment",
+          "s3Key": "amplify-builds/connectProdPostConfirmation-44304f4a7943536c3475-build.zip"
+        }
+      },
+      "auth": {
+        "connectdevde31f482": {},
+        "connectui709baae7": {},
+        "connectProd": {},
+        "true": {},
+        "userPoolGroups": {}
+      }
+    }
+  },
+  "prodd": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-connectui-prodd-132651-authRole",
+      "UnauthRoleArn": "arn:aws:iam::480876436154:role/amplify-connectui-prodd-132651-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::480876436154:role/amplify-connectui-prodd-132651-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-connectui-prodd-132651-deployment",
+      "UnauthRoleName": "amplify-connectui-prodd-132651-unauthRole",
+      "StackName": "amplify-connectui-prodd-132651",
+      "StackId": "arn:aws:cloudformation:us-east-1:480876436154:stack/amplify-connectui-prodd-132651/1fb5e340-9493-11ec-b35a-0ec4f46ff2ff",
+      "AmplifyAppId": "dmuwpm2t7uf0w",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-connectui-prodd-132651-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "function": {
+        "AdminQueries18089b5e": {},
+        "connectProdCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-connectui-prodd-132651-deployment",
+          "s3Key": "amplify-builds/connectProdCreateAuthChallenge-6b44636a454a59494935-build.zip"
+        },
+        "connectProdPostConfirmation": {
+          "GROUP": "Admins",
+          "deploymentBucketName": "amplify-connectui-prodd-132651-deployment",
+          "s3Key": "amplify-builds/connectProdPostConfirmation-44304f4a7943536c3475-build.zip"
+        },
+        "AdminQueries51fc1ceb": {
+          "deploymentBucketName": "amplify-connectui-prodd-132651-deployment",
+          "s3Key": "amplify-builds/AdminQueries51fc1ceb-6948517a462b39386154-build.zip"
+        }
+      },
+      "auth": {
+        "connectdevde31f482": {},
+        "userPoolGroups": {},
+        "connectProd": {},
+        "connectui26b4e421": {},
+        "true": {}
+      }
+    }
+  }
+}
